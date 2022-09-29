@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  padding: 0 5%;
+}
+
+.header {
+  height: 25vh;
+  background-image: url(/image/andre-tan-THJJRUhNlEc-unsplash.jpg);
+  background-size: cover;
+  background-position: center 15%;
+  /* position: absolute; */
+}
+
+.heading-primary {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  align-items: center;
+}
+
+.heading-primary-main {
+  font-weight: 800;
+  font-size: 2.67rem;
+}
+
+.heading-primary-sub {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.searching-box {
+  display: flex;
+  justify-content: center;
+  /* width:fit-content; */
+  position: relative;
+  top: 80%;
+  transform: translateY(-50%);
+  color: white;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(178, 178, 189);
+  height: 40px;
+  margin: 0 30px;
+  /* padding-left: 20px; */
+}
+
+.searching-box>img {
+  height: 20px;
+  margin: 0 10px;
+}
+
+.searching-box>input{
+  width: 60%;
+  border: none;
+  margin: 0 10px;
+  padding: 3px;
+}
+.searching-box>button{
+  border: none;
+  width: 70px;
+  margin: 10px;
+}
+
+main{
+height: 72vh;
+font-size: .9rem;
+}
+
+.heading-start{
+  position: relative;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-start h2 {
+  color: #DFDDDD;
+}
+
+
+.heading-container{
+  display: flex;
+  border-bottom: 1px solid rgb(37, 36, 36);
+  align-items: center;
+}
+
+.heading-container>img {
+  height: 30%;
+  width: 30%;
+  /* margin: 20px; */
+  padding: 10px 10px 10px 0;
+}
+
+.movie-data>h4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-primary-sub>a:link, 
+.heading-primary-sub>a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.watchlist-anchor {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .heading-container {
+    flex-direction: column;
+  }
+
+  .searching-box{
+    position: fixed;
+    top: 97vh;
+  }
+}
