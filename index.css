@@ -9,7 +9,7 @@ body {
 
 .header {
   height: 25vh;
-  background-image: url(/image/andre-tan-THJJRUhNlEc-unsplash.jpg);
+  background-image: url(./image/andre-tan-THJJRUhNlEc-unsplash.jpg);
   background-size: cover;
   background-position: center 15%;
   /* position: absolute; */
